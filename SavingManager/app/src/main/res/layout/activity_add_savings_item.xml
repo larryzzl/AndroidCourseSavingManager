@@ -26,7 +26,8 @@
             android:layout_weight="3"
             android:ems="10"
             android:layout_marginStart="@dimen/activity_horizontal_margin"
-            android:text="TextView" />
+            android:hint="Bank name"
+            android:text="" />
     </LinearLayout>
 
     <LinearLayout
@@ -47,8 +48,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:ems="10"
+            android:inputType="none"
             android:layout_marginStart="@dimen/activity_horizontal_margin"
-            android:text="TextView" />
+            android:hint="Start date"
+            android:text="" />
     </LinearLayout>
 
     <LinearLayout
@@ -69,8 +72,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:ems="10"
+            android:inputType="none"
             android:layout_marginStart="@dimen/activity_horizontal_margin"
-            android:text="TextView" />
+            android:hint="End date"
+            android:text="" />
     </LinearLayout>
 
     <LinearLayout
@@ -91,9 +96,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:ems="10"
-            android:inputType="number"
+            android:inputType="numberDecimal"
             android:layout_marginStart="@dimen/activity_horizontal_margin"
-            android:text="TextView" />
+            android:hint="Amount"
+            android:text="" />
     </LinearLayout>
 
     <LinearLayout
@@ -114,9 +120,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:ems="10"
-            android:inputType="number"
+            android:inputType="numberDecimal"
             android:layout_marginStart="@dimen/activity_horizontal_margin"
-            android:text="TextView" />
+            android:hint="Annualized Yield"
+            android:text="" />
     </LinearLayout>
 
     <LinearLayout
@@ -137,9 +144,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:ems="10"
-            android:inputType="number"
+            android:inputType="numberDecimal"
             android:layout_marginStart="@dimen/activity_horizontal_margin"
-            android:text="TextView" />
+            android:hint="Expected Interest"
+            android:text="" />
     </LinearLayout>
 
     <LinearLayout
@@ -162,8 +170,5 @@
             android:text="Save" />
 
     </LinearLayout>
-
-
-
 
 </LinearLayout>
