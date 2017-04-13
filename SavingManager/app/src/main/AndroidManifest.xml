@@ -19,7 +19,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddSavingsItemActivity" android:launchMode="singleInstance"></activity>
+        <activity
+            android:name=".AddSavingsItemActivity"
+            android:launchMode="singleInstance" />
+
+        <provider
+            android:name=".MyContentProvider"
+            android:authorities="com.zzl.contentprovider"
+            android:enabled="true"
+            android:exported="false" />
+        <provider
+            android:name="com.androidcourse.larryzzl.savingmanager.SavingContentProvider"
+            android:authorities="com.androidcourse.larryzzl.savingmanager.contentprovider"
+            android:enabled="true"
+            android:exported="false"></provider>
     </application>
 
 </manifest>
